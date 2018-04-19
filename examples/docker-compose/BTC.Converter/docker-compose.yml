@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  backend:
+    image: snek/backend
+    build:
+      context: .
+      dockerfile: Backend/Dockerfile
+    ports:
+      - 8081:80
+  frontend:
+    image: snek/frontend
+    build:
+      context: .
+      dockerfile: Frontend/Dockerfile
+    ports:
+      - 8080:80

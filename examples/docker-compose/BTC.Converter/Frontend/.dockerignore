@@ -1,0 +1,5 @@
+Bin/
+obj/
+packages.config
+Web.config
+Web.Debug.config
