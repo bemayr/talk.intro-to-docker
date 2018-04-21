@@ -34,9 +34,15 @@ You could also use something like [mongoose](https://github.com/cesanta/mongoose
 The Docker-Solution simply works on every machine.
 
 ## [softaware/webdev](https://github.com/softawaregmbh/docker-webdev)
+This is a Docker Image I built during my internship @softawaregmbh to make our webdev-process way easier and deterministic.
 
 ## [lirantal/dockly](https://github.com/lirantal/dockly)
-TODO: docker-socket, monitoring
+*dockly* let's you inspect your running Docker containers.
+The trick is that *dockly* itself runs as a container, but gets the Docker socket (docker.sock) mounted inside the container.
 ```
 docker run -it -v /var/run/docker.sock:/var/run/docker.sock lirantal/dockly
 ```
+
+## [Jessie Frazelle](https://blog.jessfraz.com/)
+Make sure to take a look at Jessie Frazelle's [blog](https://blog.jessfraz.com/) and her [GitHub](https://github.com/jessfraz).
+She does absolutely amazing stuff with Docker and really pushes it to the limits.
