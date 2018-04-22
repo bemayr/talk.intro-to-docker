@@ -1,5 +1,5 @@
 # microsoft/mssql-server-linux
-Runnint SQL Server in a Linux Container is really easy thanks to Microsoft's great `microsoft/mssql-server-linux` image.
+Running SQL Server in a Linux Container is really easy thanks to Microsoft's great `microsoft/mssql-server-linux` image.
 Just make sure you assigned your Docker VM at least 2 GBs of RAM.
 
 ```powershell
